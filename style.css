@@ -110,3 +110,25 @@ body{
 .container .not-user a:hover{
     border-bottom: 2px solid #12DD86;
 }
+
+@media (max-width:768px) {
+    .container{
+        width: 300px;
+        height:380px ;
+    }
+    .container .input-f{
+        position: relative;
+        width: 210px;
+        height: 40px;
+        margin: 40px 18px;
+    }
+    .container span{
+        transform: translate(40%,40%);
+    }
+    .container input{
+        width: 210px;
+        height: 44px;
+        padding: 0 10px 0 40px;
+        border: 3px solid #12DD86;
+    }
+}
