@@ -4,7 +4,6 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background-image: url(imgs/1Kte.gif); */
     background-color: #030304;
     min-height: 100vh;
     display: flex;
