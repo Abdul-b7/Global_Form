@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: url(imgs/1Kte.gif); */
+    background-color: #030304;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #12DD86;
+    overflow: hidden;
+}
+#hh{
+    position: absolute;
+    border-radius: 100%;
+    height: 100%;
+}
+.container{
+    width: 400px;
+    height:380px ;
+    /* background-image:linear-gradient(rgba(207, 201, 201, 0.085),rgba(238, 229, 229, 0.085)), url(imgs/1Kte.gif);
+    background-position: center;*/
+    backdrop-filter: blur(2px);
+    box-shadow:0 0 30px 2px  #12DD86 ;
+    position: relative;
+    border: 2.5px solid #12DD86;
+    border-radius: 25px;
+}
+
+.container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 32px;
+    margin: 20px;
+}
+.container .input-f{
+    position: relative;
+    width: 320px;
+    height: 40px;
+    background: none;
+    margin: 40px 20px;
+}
+.container span{
+    position: absolute;
+    transform: translate(40%,28%);
+}
+.container input{
+    width: 300px;
+    height: 44px;
+    padding: 0 10px 0 40px;
+    border: 3px solid #12DD86;
+    outline: none;
+    border-radius: 20px;
+    color: #12DD86;
+    background: transparent;
+}
+.input-f input:focus,
+.input-f input:valid{
+    box-shadow: 0 0 4px 2px #12DD86;
+}
+.container input::placeholder{
+    font-weight: 500;
+    color: #12DD86;
+}
+.container .forget{
+    position: absolute;
+    top: 63%;
+    left: 10%;
+}
+.forget p{
+    font-size: 12px;
+    font-weight: 700;
+}
+.container .btn{
+    width: 202px;
+    height: 42px;   
+    margin: 60px auto 5px;
+    
+}
+.container button{
+    width: 202px;
+    height: 42px;
+    font-weight: 600;
+    border: 3px solid #12DD86;
+    border-radius: 25px;
+    background: transparent;
+    color: #12DD86;
+    cursor: pointer;
+}
+.container button:hover{
+    color:#030304  ;
+    background-color:#12DD86;
+    border: none;
+}
+.container .not-user{
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.container .not-user a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #12DD86;
+    cursor: pointer;
+}
+.container .not-user a:hover{
+    border-bottom: 2px solid #12DD86;
+}
